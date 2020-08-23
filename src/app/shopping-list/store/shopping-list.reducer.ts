@@ -23,7 +23,7 @@ const updateProcedure = (state: State, payload: Ingredient) => {
   const updatedIngredients = [...state.ingredients];
   updatedIngredients[state.editedIngredientIndex] = updatedIngredient;
 
-  return updatedIngredients
+  return updatedIngredients;
 };
 
 const shoppingListReducer = createReducer(
