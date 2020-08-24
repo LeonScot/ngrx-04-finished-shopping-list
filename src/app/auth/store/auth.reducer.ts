@@ -27,7 +27,3 @@ export const authReducer = createReducer(
     user: null
   })),
 );
-
-// export function authReducer(state = initialState, action) {
-//   return state;
-// }
