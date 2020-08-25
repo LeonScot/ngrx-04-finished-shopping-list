@@ -3,7 +3,7 @@ import { Action, createAction, props } from '@ngrx/store';
 import { Ingredient } from '../../shared/ingredient.model';
 export const ADD_INGREDIENT = '[ShoppingList Component] Add Ingredient';
 export const ADD_INGREDIENTS = '[ShoppingList Component] Add Ingredients';
-export const UPDATE_INGREDIENT = '[ShoppingList Component] Updare Ingredient';
+export const UPDATE_INGREDIENT = '[ShoppingList Component] Update Ingredient';
 export const DELETE_INGREDIENT = '[ShoppingList Component] Delete Ingredient';
 export const START_EDIT = '[ShoppingList Component] Start Edit';
 export const STOP_EDIT = '[ShoppingList Component] Stop Edit';
